@@ -1,5 +1,5 @@
 GITHUB VERSION IS A MIRROR
-https://github.com/skinatro/c-unix-utils.g
+https://github.com/skinatro/c-unix-utils.git
 
 
 # coreutils
@@ -13,7 +13,7 @@ My Version of the unix command‑line utilities.
 ## Install
 From source:
 ```
-git clone https://codeberg.com/skinatro/c-unix-utils.git it
+git clone https://codeberg.com/skinatro/c-unix-utils.git 
 cd c-unix-utils
 make all         
 ```
