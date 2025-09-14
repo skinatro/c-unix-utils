@@ -1,16 +1,20 @@
+GITHUB VERSION IS A MIRROR
+https://github.com/skinatro/c-unix-utils.g
+
+
 # coreutils
 
 My Version of the unix command‑line utilities.
 
 ## Requirements
 - Compiler: gcc/clang (C)
-- Make/CMake
+- Make
 
 ## Install
 From source:
 ```
-git clone https://github.com/skinatro/coreutils.git
-cd coreutils
+git clone https://codeberg.com/skinatro/c-unix-utils.git it
+cd c-unix-utils
 make all         
 ```
 
@@ -31,6 +35,9 @@ make all
 [X] echo 
 [X] pwd
 [X] yes
+[ ] sleep
+
+### Pending (for now , might add more later)
 
 whoami: Prints the current user name (fetches user info).
 id: Shows user and group IDs.
