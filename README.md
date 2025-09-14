@@ -3,8 +3,9 @@ https://github.com/skinatro/c-unix-utils.git
 
 
 # coreutils
-
 My Version of the unix command‑line utilities.
+
+SPDX: BSD-2-Clause 
 
 ## Requirements
 - Compiler: gcc/clang (C)
