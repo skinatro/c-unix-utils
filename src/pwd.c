@@ -21,9 +21,9 @@
 // }
 
 void help(void){
-    puts("usage: pwd [-L|-P]");
-    puts("-L  print the logical current working directory");
-    puts("-P  print the physical current working directory");
+    fprintf(stderr,"usage: pwd [-L|-P]");
+    fprintf(stderr,"-L  print the logical current working directory");
+    fprintf(stderr,"-P  print the physical current working directory");
 }
 
 int main(int argc, char** argv){

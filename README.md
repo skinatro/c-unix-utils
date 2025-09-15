@@ -36,19 +36,20 @@ make all
 [X] echo 
 [X] pwd
 [X] yes
-[ ] sleep
+[X] sleep
+[X] whoami
+[ ] mkdir
+[ ] rmdir
+[ ] touch
 
 ### Pending (for now , might add more later)
 
-whoami: Prints the current user name (fetches user info).
+
 id: Shows user and group IDs.
 tty: Prints the filename of the terminal connected to standard input.
 hostname: Prints the system's hostname.
 basename: Strips directory path and suffix from file names (string manipulation).
 dirname: Removes the last filename part from a path.
-touch: Creates empty files or updates timestamps.
-mkdir: Creates directories (simple API call).
-rmdir: Removes empty directories.
 cat: Concatenates and prints files.
 head / tail: Prints first or last N lines of a file.
-wc: Counts lines, words, and bytes in files
+wc: Counts lines, words, and bytes in files 
